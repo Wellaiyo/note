@@ -1,0 +1,17 @@
+name: Dev Note
+description: Web Developer
+
+server_port: 4000
+
+social:
+  github: Wellaiyo
+
+permalink: /:year/:month/:title
+
+#paginate: 3
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
